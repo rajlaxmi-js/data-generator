@@ -17,7 +17,7 @@ const App = () => {
     <div className="joke">
       <h1>Joke Generator</h1>
       { joke === null ?(
-        <h2>loading...</h2>
+        <h2 className="loading">loading...</h2>
       ):(
           <>
           <h3>{joke.setup}</h3>

@@ -58,3 +58,14 @@ text-shadow: 10px 10px 5px 41px rgba(173, 51, 51, 0.75);
 
     }
 }
+.loading {
+  opacity: 1;
+  animation: blink 2.5s ease-in-out infinite;
+
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
